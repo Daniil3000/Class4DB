@@ -62,7 +62,7 @@
     <Build Include="Student.sql" />
     <Build Include="Course.sql" />
     <Build Include="Student_Course.sql" />
-    <Build Include="VW_GetStudentsAndCourses.sql" />
+    <Build Include="VW_GetStudentNames.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment1.sql" />
