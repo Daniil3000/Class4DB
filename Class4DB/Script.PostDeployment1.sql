@@ -10,13 +10,13 @@ Post-Deployment Script Template
 --------------------------------------------------------------------------------------
 */
 
-INSERT INTO Student VALUES('Daniil', 'Pavlenko', 31, GETDATE())
-INSERT INTO Student VALUES('Mr', 'Propper', 160, GETDATE())
-INSERT INTO Student VALUES('John', 'Doe', 25, GETDATE())
+INSERT INTO Student VALUES('Daniil', 'Pavlenko', 31, GETDATE(), null)
+INSERT INTO Student VALUES('Mr', 'Propper', 160, GETDATE(), null)
+INSERT INTO Student VALUES('John', 'Doe', 25, GETDATE(), null)
 
-INSERT INTO Course VALUES('Java', 180, GETDATE())
-INSERT INTO Course VALUES('DataBase', 210, GETDATE())
-INSERT INTO Course VALUES('JavaScript', 150, GETDATE())
+INSERT INTO Course VALUES('Java', 180, GETDATE(), null)
+INSERT INTO Course VALUES('DataBase', 210, GETDATE(), null)
+INSERT INTO Course VALUES('JavaScript', 150, GETDATE(), null)
 
 INSERT INTO Student_Course VALUES(1, 1)
 INSERT INTO Student_Course VALUES(1, 2)
